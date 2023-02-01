@@ -1,0 +1,778 @@
+.container
+{
+    margin: 0 60px;
+    padding: 0;
+}
+.header
+{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.logo
+{
+    display: flex;
+   position: relative;
+}
+.T{
+position: absolute;
+left: 7px;
+top: 3px;
+color: aliceblue;
+font-weight: bold;
+font-size: 20PX;
+font-family: muli;
+}
+.logotext
+{
+    margin-top:5px;
+    margin-left: 10px; 
+    font-weight: bold;
+    color:  #233348;
+    ;
+}
+.logoimg
+{
+    width: 30px;
+    height: 30px;
+}
+.menu ul{
+    list-style: none;
+    display: flex;
+justify-content: center;
+align-items: center;
+gap: 40px;
+color: #1F1534;
+}
+.bold
+{
+    font-weight: bold;
+}
+.homepage
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+
+}
+
+.leftpage
+{
+    width: 35%;
+    align-items: center;
+
+}
+.heading
+{
+   font-weight: bold;
+   font-size: 48px;
+
+}
+.subheading
+{
+    /* margin-top: 30px; */
+    color: #7D7987;
+    /* font-size: light; */
+    font-size: 21;
+    padding: 30px 0;  
+    width: 50%; 
+}
+.homebutton
+{
+    width: 150px;
+    height: 50px;
+    background-color:#458FF6;
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+    font-weight:bold;
+    margin-top: 20px;
+    margin-left: -10px;
+    border-style: none;
+}
+.homepageimg
+{
+    width: 600px;
+}
+.rightpage
+{
+    width: 50%;
+}
+.services
+{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+margin-top: 90px;
+}
+.headingservices
+{
+  font-weight: bold;
+  font-size: 38px;
+  margin-top: 30px;
+}
+.subheadingservices
+{
+    margin-top: 30px;
+    color:  #7D7987;
+    font-size: 14px;
+    width: 952px;
+    margin-top: 30px;
+    width: 55%;
+
+}
+.line
+{
+    width: 56px;
+    height: 2px;
+   background-color: black;
+   margin-top: 25px;
+}
+.products
+{
+    width: 100%;
+    
+  
+}
+.producttop
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+    gap: 20px;
+}
+.productbottom
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   margin-top: 40px;
+    left: 30px;
+}
+.top1,.top2,.top3,.top4,.top5,.top6
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 24%;
+    background-color:#FFFFFF;
+    border-radius: 8px;
+}
+.t1{
+    width: 50px;
+    align-items: center;
+}
+.head
+{
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.subhead
+{
+    color: #7D7987;
+    margin: 15px;
+    width: 80%;
+}
+.centerbutton{
+width: 100%;
+margin-top: 100px;
+text-align: center;
+}
+.but{
+    width: 180px;
+    height: 40px;
+    color:#458FF6;
+    background-color: white;
+    border: 1.4px solid #458FF6;
+   border-radius: 20px;
+   text-align: center;
+}
+.healthcare
+{
+    width: 100%;
+    display: flex;
+    margin-top: 200px;
+    justify-content: space-between;
+    align-items: center;
+}
+.hcleftpage
+{
+    width: 50%;
+}
+.hcrightpage
+{
+    width: 40%;
+}
+.homepage2
+{
+    width: 650px;
+}
+.mobileapp
+{
+    width: 100%;
+    display: flex;
+    margin-top:120px;
+}
+.down{
+    margin-left: 10px;
+    margin-top: 3px;
+    width: 8px;
+}
+.but
+{
+    text-align: center;
+    line-height: 25px;
+}
+.reviewtab
+{
+    width: 100%;
+    background:  linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+    /* margin: 120px 120px 120px 120px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+border-radius: 10px;
+min-height: 400px;
+position: relative;
+margin-top: 200px;
+}
+
+.reviewhead
+{
+    margin-top: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 28px;
+}
+.white
+{
+    background-color: white;
+}
+.customer
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.customerinfo
+{
+    margin-left: -60px;
+    margin-bottom: 20px;
+    line-height: 30px;
+}
+.name
+{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.area
+{
+    color: white;
+}
+.subheadingreview 
+{
+    color: white;
+    width: 30%;
+    margin-right: 60px;
+}
+.dotimg
+{
+ position: absolute; 
+ top: 10px;
+ right: 10px;
+}
+.articlecard
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+   }
+
+   .articlehead
+   {
+    font-weight: bold;
+    font-size: 18px;
+   }
+   .marightpage{
+    width: 300px;
+   }
+   .article{
+    background-color: #000000;
+    width: 100%;
+   }
+   .articlecard{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+   .articlehead{
+    margin-top: 25px;
+
+   }
+   .articlesubhead
+   {
+    font-size:15px;
+    color: #7D7987;
+    margin-top: 25px;
+   }
+   .card
+   {
+    
+    margin-top: 50px;
+width: 33%;
+   }
+   .arrowbar
+   {
+    margin-top: 30px;
+    color: #458FF6;
+    gap: 50px;
+   }
+   .arrow
+   {
+    width: 12px;
+    margin-left: 10px;
+   }
+   .articleid
+   {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+   }
+
+   .last
+   {
+    text-align: center;
+    line-height: 40px;
+margin-top: 200px;
+margin-left: 45%;
+margin-bottom: 25%;
+font-weight: bold;
+   }
+
+   .footor
+   {
+     width: 100%;
+     margin-top: 120px;
+     background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+     padding: 90px 90px;
+     margin: 0;
+     margin-left: -70px;
+     color: white;
+     display: flex;
+
+   }
+   .leftpage
+   {
+    width:38%;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left; */
+
+   }
+   .footorlogo
+   {
+    width: 30px;
+    position: relative;
+   }
+   .footert
+   {
+    height: 30px;
+width: 40px;
+color:#5B9BF3;
+position: absolute;
+left: 6px;
+top: 3px;
+font-weight: bold;
+font-size: 22px;
+
+   }
+   .footertext
+   {
+    margin-top: 5px;
+    margin-left: 10px;
+    font-weight: bold;
+   }
+   .footorsubheading{
+    margin-top: 25px;
+    width: 45%;
+   }
+   .copyrights
+   {
+    margin-top: 30px;
+   }
+   .rightpage
+   {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -25px;
+   }
+   .company ol
+   {
+    list-style: none;
+    line-height: 40px;
+   }
+   .bold{
+    font-size: 23px;
+   }
+   .menuicon{
+    display: none;
+   }
+
+
+
+
+/* mobile design */
+
+@media only screen and (max-width:600px)
+{
+    *{
+        margin:0 5px 0 5px;
+    }
+
+    .header
+    {
+    /* display: none; */
+    position: relative;
+    }
+    .menu
+    {
+        display: none;
+    }
+    .menuicon
+   {
+    display: block;
+    margin-right: -40px;
+   }
+   .dimg
+   {
+    display: none;
+   }
+    .mobilemenu
+    {
+        display:none;
+        flex-direction: column;
+        gap: 20%;
+        position: fixed;
+        right: 0px;
+        top: 0px;
+        width: 40%;
+        height: 100vh;
+        background-color:#FFFFFF;
+        padding: 20px 10px;
+        margin: 0;
+    }
+
+    .mobilemenu ul
+    {
+width: 100%;
+    }
+    .mobilemenu ul li
+    {
+        width: 100%;
+        list-style: none;
+        padding: 8px 10px;
+        margin-left: -35px;
+        border-bottom: 1px solid gray;
+
+    }
+    .mobilemenu ul li:hover
+    {
+        background-color: #000000;
+        color: white;
+    }
+    .menuicon:hover >.mobilemenu
+    {
+    display: flex;
+    flex-direction: column;
+    }
+
+    .logo
+{
+    margin-left: -60px;
+}
+.logotext
+{
+    margin-left: -2px;
+}
+.hicon
+{
+    width: 25px;
+}
+    .homepage
+    {
+        display:flex;
+        flex-direction: column;
+    }
+    .leftpage
+    {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .heading
+    {
+        font-size: 35px;
+        width: 300px;
+    }
+    .subheading
+    {
+        width: 300px;
+        
+    }
+    .rightpage
+    {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+    }
+    .homebutton
+    {
+        padding: 10px;
+        width: 120px;
+        text-align: center;
+    }
+    .homepageimg
+    {
+        width: 250px;
+    }
+    .services
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-top: -10px;
+    }
+    .headingservices,.subheadingservices
+    {
+        width: 100%;
+    }
+    .producttop,.productbottom
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+       align-items: center;
+    }
+    .t1
+    {
+        width: 40px;
+        margin-top: 10px;
+    }
+    
+    .top1,.top2,.top3,.top4,.top5,.top6
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        margin-top: 20px;
+        background-color: #FFFFFF;
+        box-shadow: 0 3px 10px rgb(0, 0,0,0.2);
+    }
+    
+    .centerbutton
+    {width: 100%;
+    }
+    .but{
+        width: 100px;
+    }
+    .healthcare
+    {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+
+    }
+    .hcleftpage
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+       align-items: center;  
+    }
+    .homepage2
+    {
+        width: 300px;
+    }
+ .hcrightpage
+ {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   align-items: center;
+   margin-top: 10px;
+   text-align: center;
+ }
+ .mobileapp
+ {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   margin-top: 50px;
+ }
+ .maleftpage
+ {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   align-items: center;
+   margin-top: 10px;
+   text-align: center; 
+ }
+ .but{
+    line-height: 33px;
+    position: relative;
+ }
+ .down{
+   position: absolute;
+   top: 10px;
+   right:-8px;
+ }
+ .marightpage
+ {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+   
+ }
+ .homepage2
+ {
+    width: 300px;
+ }
+ .reviewtab
+ {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    
+    position:unset;
+    width: 100%;
+     }
+     .customer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 40px;
+     }
+    .white
+    {
+    display: none;
+    }
+.avthar
+{
+    margin-left: -40px;
+}
+
+.customerimg
+{
+    width: 80px;
+}
+.dotimg{
+    position: absolute;
+    right: -60px;
+    z-index: 4;
+}
+
+.subheadingreview
+{
+    width:100% ;
+}
+
+.articlecard
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.articleid
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+     width: 100%;
+}
+.cardimg
+{
+    width: 300px;
+}
+ .last{
+    margin-top: 30px;
+    margin-left: 40%;
+ }
+ .footor
+ {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding:0;
+    margin: 0;
+    border-radius: 10px;
+ }
+ .footertext
+ {
+    margin-left: 5px;
+ }
+ .footert{
+    margin-left: -5px;
+ }
+ .leftpage
+ {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 30px;
+ }
+ .rightpage
+ {
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+ }
+ .articlehead,.articlesubhead
+ {
+    width: 100%;
+ }
+}
